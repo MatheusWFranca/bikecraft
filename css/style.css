@@ -2,12 +2,17 @@
 
 
 body {
-font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-p { /* padrão para o site todo */
+p {
+  /* padrão para o site todo */
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
+}
+
+img {
+  display: block;
 }
 
 .btn {
@@ -20,14 +25,15 @@ p { /* padrão para o site todo */
   letter-spacing: .1em;
 }
 
-.btn:hover{ /* Adicionando hover no botão */
+.btn:hover {
+  /* Adicionando hover no botão */
   color: white;
   border-color: white;
 }
 
 .btn.btn-preto:hover {
   color: black;
-  border-color: black; 
+  border-color: black;
 }
 
 .subtitulo {
@@ -40,13 +46,14 @@ p { /* padrão para o site todo */
   font-weight: bold;
 }
 
-.subtitulo::after{
-  content: ""; 
-  display: block; 
+.subtitulo::after {
+  content: "";
+  display: block;
   width: 60px;
   height: 3px;
   background: black;
-  margin: 8px auto 20px auto; /* sentido horario */
+  margin: 8px auto 20px auto;
+  /* sentido horario */
 }
 
 .subtitulo:hover {
@@ -58,19 +65,23 @@ p { /* padrão para o site todo */
 .header {
   width: 100%;
   top: 0;
-  background: #face31; 
-  padding: 5px 0; /* Preenchimento do header */
-  position: fixed; /* Top fixado */
-  z-index: 10; 
+  background: #face31;
+  padding: 5px 0;
+  /* Preenchimento do header */
+  position: fixed;
+  /* Top fixado */
+  z-index: 10;
 }
 
 .header_menu {
-  text-align: right; /* Alinhar a linha */
+  text-align: right;
+  /* Alinhar a linha */
 }
 
 .header_menu ul li {
   font-family: Arial, Helvetica, sans-serif;
-  display: inline-block;/* Alinhar a lista ao lado */
+  display: inline-block;
+  /* Alinhar a lista ao lado */
   margin-left: 25px;
   margin-top: 20px;
 }
@@ -78,16 +89,21 @@ p { /* padrão para o site todo */
 .header_menu ul li a {
   color: white;
   font-weight: bold;
-  text-transform: uppercase; /* Letra maisculo  */
+  text-transform: uppercase;
+  /* Letra maisculo  */
   letter-spacing: .1em;
-  font-size: 14px; 
-  line-height: 40px; /* centralizar a linha */
-  padding: 10px 0; /* muda o tamanho da box do clique */
+  font-size: 14px;
+  line-height: 40px;
+  /* centralizar a linha */
+  padding: 10px 0;
+  /* muda o tamanho da box do clique */
 }
 
-.header_menu ul li a:hover { /* mudar a cor ao passar o cursor */
-  color:black
+.header_menu ul li a:hover {
+  /* mudar a cor ao passar o cursor */
+  color: black
 }
+
 /* Introdução */
 
 .introducao {
@@ -120,20 +136,24 @@ p { /* padrão para o site todo */
   font-style: italic;
 }
 
-.quote-externo p:before, .quote-externo p:after { /* linha separadora */
-content: ""; 
-display: block; 
-width: 60px;
-height: 3px;
-background: white;
-margin: 12px auto 20px auto; /* sentido horario */
+.quote-externo p:before,
+.quote-externo p:after {
+  /* linha separadora */
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 12px auto 20px auto;
+  /* sentido horario */
 }
 
 .quote-externo cite {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  letter-spacing: .1em; /* espaçamento entre as letras */
+  letter-spacing: .1em;
+  /* espaçamento entre as letras */
 }
 
 /* Produtos */
@@ -143,7 +163,8 @@ margin: 12px auto 20px auto; /* sentido horario */
 }
 
 .produtos-lista li {
-  text-align: center; /* Alinha o icone e texto dentro da box */
+  text-align: center;
+  /* Alinha o icone e texto dentro da box */
   background: #face31
 }
 
@@ -158,11 +179,11 @@ margin: 12px auto 20px auto; /* sentido horario */
 
 .produtos-lista li h3::after {
   content: "";
-display: block; 
-width: 60px;
-height: 3px;
-background: black;
-margin: 2px auto 20px auto; 
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 2px auto 20px auto;
 }
 
 .produtos-lista li p {
@@ -207,3 +228,51 @@ margin: 2px auto 20px auto;
 .portfolio .call p {
   color: white;
 }
+
+/* qualidade */
+
+.qualidade {
+  padding: 60px 0;
+}
+
+.qualidade:after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url(../img/linhas.svg) no-repeat center;
+  position: absolute;
+  top: 188px;
+  right: 162px;
+  z-index: -1;
+}
+
+.qualidade img {
+  margin: 0 auto;
+}
+
+.qualidade-lista {
+  padding-top: 40px;
+}
+
+.qualidade-lista li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.qualidade-lista li h3 {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.qualidade-lista li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 6px auto 20px auto;
