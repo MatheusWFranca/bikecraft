@@ -1,6 +1,7 @@
 .interna_sobre {
   background: url("../img/bg-sobre.jpg") no-repeat center;
   background-position: ;
+  background-size: cover;
 }
 .missao_sobre {
   padding-top: 60px;
