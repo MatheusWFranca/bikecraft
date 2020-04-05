@@ -1,8 +1,12 @@
 .interna_sobre {
   background: url("../img/bg-sobre.jpg") no-repeat center;
-  background-position: ;
   background-size: cover;
 }
+
+.titulo {
+  font-family: 'Baloo Da 2', cursive;
+}
+
 .missao_sobre {
   padding-top: 60px;
 }
@@ -13,6 +17,7 @@
   margin-bottom: 1em;
   padding-right: 60px;
 }
+
 .missao_sobre ul li {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
