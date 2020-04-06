@@ -14,6 +14,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .btn {
@@ -70,6 +71,7 @@ img {
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 .subtitulo-interno::after {
   content: "";
   display: block;
@@ -98,8 +100,9 @@ img {
 }
 
 .header_menu ul li a.menu_ativo {
-  color:black;
+  color: black;
 }
+
 .header_menu ul li {
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
@@ -134,16 +137,18 @@ img {
   text-align: center;
   background: url("../img/bg.jpg") no-repeat center;
   background-size: cover;
-  margin-top: 89px;
-  padding-top: 120px;
+  margin-top: 90px;
+  padding-top: 100px;
+  
 }
 
 .introducao h1 {
-  font-family: 'Baloo Da 2', cursive;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
   font-weight: bold;
   color: white;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .quote-externo {
@@ -166,7 +171,7 @@ img {
   width: 60px;
   height: 3px;
   background: white;
-  margin: 12px auto 20px auto;
+  margin: 14px auto 17px auto;
   /* sentido horario */
 }
 
@@ -191,12 +196,12 @@ img {
 }
 
 .introducao-interna h1 {
-font-size: 36px;
-font-weight: bold;
-text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.introducao-interna h1::after{
+.introducao-interna h1::after {
   content: "";
   display: block;
   font-weight: bold;
@@ -216,6 +221,10 @@ text-transform: uppercase;
   text-align: center;
   /* Alinha o icone e texto dentro da box */
   background: #face31
+}
+
+.produtos-lista li img {
+  margin: 0 auto;
 }
 
 .produtos-lista li h3 {
@@ -246,13 +255,14 @@ text-transform: uppercase;
 }
 
 .call {
-  padding: 40px;
+  padding: 5px;
   text-align: center;
   clear: both;
+  margin-top: 40px;
 }
 
 .call p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* Portfólio */
@@ -303,7 +313,8 @@ text-transform: uppercase;
 
 .qualidade-lista {
   padding-top: 20px;
-  overflow: hidden; /* Clear Fix */
+  overflow: hidden;
+  /* Clear Fix */
 }
 
 .qualidade-lista li {
@@ -338,7 +349,7 @@ text-transform: uppercase;
   background-size: cover;
   text-align: center;
   padding-top: 40px;
- 
+
 }
 
 .quebra .quote-externo {
@@ -362,13 +373,13 @@ text-transform: uppercase;
   font-weight: bold;
 }
 
-.footer h3::after{
+.footer h3::after {
   content: "";
   display: block;
   width: 60px;
   height: 3px;
   background: #face31;
-  margin: 12px 0px 16px 0px ;
+  margin: 12px 0px 16px 0px;
 }
 
 .footer-historia {
