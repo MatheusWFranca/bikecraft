@@ -1,7 +1,6 @@
 <?php
 
 require("./sendgrid-php/sendgrid-php.php");
-
 $email_site = "contato@bikcraft.com";
 $nome_site = "Bikcraft";
 
