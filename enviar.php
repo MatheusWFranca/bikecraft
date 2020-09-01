@@ -9,7 +9,7 @@ require "./PHPMailer/src/SMTP.php";
 
 // Mudar Aqui o e-mail
 $email_envio = "contato@orbitudelab.com"; // E-mail do site (ex: contato@seusite.com)
-$email_pass = "Mat91032887!"; // Senha do e-mail
+$email_pass = ""; // Senha do e-mail
 
 $site_name = "Bikcraft"; // Nome do Site
 $site_url = "www.orbitudelab.com"; // URL do Site
